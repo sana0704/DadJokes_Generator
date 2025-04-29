@@ -1,0 +1,45 @@
+body{
+    
+  
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container{
+    padding: 20px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+     position: relative;
+    top: 50px; 
+    background-color:#A34343;
+    border-radius: 100px;
+}
+
+.container h1{
+    color: #FFC55A;
+    text-align: center;
+}
+
+.api_body{
+    color: #FFE0B5;
+    font-size:medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-style:oblique;
+}
+
+#fetchjoke{
+    background-color: #F8D082;
+    width: 150px;
+    height: 50px;
+    border-radius: 55px;
+   
+}
